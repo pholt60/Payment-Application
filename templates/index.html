@@ -1,0 +1,20 @@
+{% extends "master.html" %}
+
+{% block title %}page title{% endblock %}
+{% block body %}
+ <header>
+      <nav></nav>
+<h1>This is Pat King's Payment Application</h1>
+<h2>This is a form for receiving input from the end-user</h2>
+<form>
+   <form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+  <label for="femail">Email Address:</label><br>
+  <input type="text" id="femail" name="femail"><br>
+  <input type="submit" value="Submit">
+</form>
+{% endblock %}
+
